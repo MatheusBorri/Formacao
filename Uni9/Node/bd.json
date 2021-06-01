@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Chinelo",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "name": "Papel",
+      "price": 0.5
+    },
+    {
+      "id": 3,
+      "name": "óculos",
+      "price": 300
+    },
+    {
+      "name": "batata",
+      "price": "30.00",
+      "id": 4
+    }
+  ],
+  "tops": [
+    {
+      "id": 1,
+      "name": "Chinelo",
+      "price": 20
+    },
+    {
+      "id": 2,
+      "name": "Papel",
+      "price": 0.5
+    },
+    {
+      "id": 3,
+      "name": "Mesa",
+      "price": 300
+    }
+  ]
+}
