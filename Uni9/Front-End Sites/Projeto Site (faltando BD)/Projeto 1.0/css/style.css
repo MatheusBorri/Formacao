@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{  
+	background-position: right bottom, left top;
+  	background-repeat: no-repeat, repeat;
+}
+
+body{		
+	font-family: 'Arial', Times, serif;
+	color: black;
+}
+
+header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo{
+	margin-left: 5px;
+	font-family: 'Arial Black', Times;
+	font-size: 40px;
+}
+
+header nav a{
+	text-decoration: none; 
+	color: #B0C4DE;
+	margin-right: 10px;
+}
+
+header nav a:hover{
+	color: #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+.logo{
+	margin-left: 5px;
+	font-family: 'Arial Black', Times;
+	font-size: 40px;
+}
+
+
+.boxprincipal {
+	text-align: center;
+	background-color: white;
+	border: 10px solid #B0C4DE;
+	border-radius: 5px;
+	margin: auto;
+ 	width: 40%;
+  	padding: 30px;
+}
+
+.boxregistro {
+	text-align: center;
+	background-color: white;
+	border: 10px solid #B0C4DE;
+	border-radius: 5px;
+	margin: auto;
+ 	width: 50%;
+  	padding: 30px;
+}
+
+.divs {
+	width: calc(100% / 3);
+  	height: 30px;
+  	display: inline-block;;
+}
+
+.divsregistro {
+	width: calc(100% / 3);
+  	height: 30px;
+  	display: inline-block;
+}
+
+.imghome {
+	width: auto;
+	height: 350px;
+}
+
+.imgfunc {
+	width: auto;
+	height: 250px;
+}
+
+.imgempre{
+	width: auto;
+	height: 250px;
+}
+
+
+.button{
+	border-radius: 8px;
+	padding: 10px 24px;
+	transition-duration: 0.4s;
+	background-color: white;
+  	color: black;
+  	border: 2px solid #555555;
+}
+
+button:hover {
+	background-color: #B0C4DE;
+  	color: white;
+}
+
+.btnentrar{
+	border-radius: 8px;
+	padding: 10px 24px;
+}
+
+.btnentrada{
+	border-radius: 8px;
+	padding: 5px 33px;
+}
+
+.btnsaida{
+	border-radius: 8px;
+	padding: 5px 40px;
+}
+
+.btnregistrar{
+	border-radius: 8px;
+	padding: 5px 10px;
+}
+
+.imgheader {
+    height: 100px;
+}
+
+.imgcons{
+	height: 100px;
+}
+
+.imgbemvindo{
+	margin-top: -100px;
+	height: 250px;
+}
+
+footer {
+	border-radius: 10px;
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 60px; 
+    background-color: #B0C4DE;
+    border: 5px solid white;
+}
+
+
