@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>EXE2</title>
+<link rel="stylesheet" type="text/css" href="Css's/EXE2.css">
+</head>
+
+<body>
+	<h3 class="Andre">Sistema de Gestão Acadêmica</h3>
+	<h3><b>Manutenção de Usúarios do Sistema Interno</b></h3>
+	
+	
+	<table>
+	
+		<tr>
+			<td><label><b>Login:</b></label></td>
+		
+	
+			<td><input type="text" class="Gabriel"></td>
+			
+		</tr>
+		
+		
+		<tr>
+			<td><label><b>Senha:</b></label></td>
+		
+	
+			<td><input type="password" class="Gabriel"></td>
+			
+		</tr>
+		
+		<tr>
+			<td><label><b>Status</b></label></td>
+		
+	
+			<td>
+			<select id="status" name="status" class="Gabriel">
+  				<option value="Ativo">Ativo</option>
+  				<option value="inativo">Inativo</option>
+  				
+			</select>
+			</td>
+			
+		</tr>
+	
+	
+		<tr>
+			<td><label><b>Tipo:</b></label></td>
+		
+		  <td>
+			<div class="Gabriel">
+		<input type="radio" id="tec" name="tipo" value="tec">
+		<label for="tec">Técnico</label>
+		<input type="radio" id="prof" name="tipo" value="prof">
+		<label for="prof">Professor</label>
+		<input type="radio" id="alu" name="tipo" value="alu">
+		<label for="alu">Aluno</label>
+				
+				</div>
+			
+		  </td>
+		</tr>
+		
+		
+		<tr>
+			<td><label><b>Data de Criação:</b></label></td>
+		
+	
+			<td><input type="date" class="Gabriel"></td>
+			
+		</tr>
+		
+		
+		
+		
+	<tr>	
+		
+		<td><label><b>Perfil:</b></label></td>
+		
+		<td>
+			<div class="Gabriel">
+		<input type="radio" id="conv" name="conv" value="Convidado">
+		<label for="conv">Convidado</label>
+		<input type="radio" id="per" name="per" value="perfil">
+		<label for="per">Administrador</label>
+		
+				</div>
+			
+		  </td>
+		</tr>
+		
+		<tr>	
+		
+		<td><label><b>Observações:</b></label></td>
+		
+		<td>
+			<textarea name="message" rows="5" cols="30" class="Gabriel"></textarea>
+			
+		  </td>
+		</tr>
+		
+		<tr>	
+		
+		<td><label><b>Módulos:</b></label></td>
+		
+		<td>
+			<div class="Gabriel">
+			<input type="checkbox" id="compras" name="compras" value="compras">
+  			<label for="compras">Compras</label>
+			<input type="checkbox" id="biblio" name="biblio" value="Biblioteca">
+  			<label for="biblio">Biblioteca</label>
+			<input type="checkbox" id="acad" name="acad" value="Acadêmico">
+  			<label for="acad">Acadêmico</label><br><br>
+			<input type="checkbox" id="docu" name="docu" value="Documentação">
+  			<label for="docu">Documentação</label>
+			<input type="checkbox" id="recu" name="recu" value="Recursos Humanos">
+			<label for="recu">Recursos Humanos</label><br><br>
+			</div>
+		  </td>
+		</tr>
+		
+	
+	</table>
+	
+	<button type="submit">Cadastrar</button>
+	<button type="reset">Excluir</button>
+</body>
+</html>

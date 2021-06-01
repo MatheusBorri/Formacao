@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tabela</title>
+	<style type="text/css">
+		th{
+			background-color:aqua;
+			border-color:green;
+			border:"1px";
+		}
+		table{
+			text-align: center;
+			font-family: Arial;
+			font-size: 20px;
+			box-shadow: 6px 5px #ccc;	
+		}
+		
+		.toper{background-color:red}
+		
+		.a{color:pink}
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	
+	<table border="1px solid" align="center">
+	<tr>
+		<th colspan="3" class="toper">Isso msm</th>
+	</tr>	
+	<tr>
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+		
+	</tr>
+		
+	<tr>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+	</tr>
+		
+	<tr>
+			<td class="a">a</td>
+			<td rowspan="2">b</td> <! -- faz duas linhas na vertical se juntarem, rowspan + o lugar da sua linha -->
+			<td>c</td>
+	</tr>
+	
+	<tr>
+			<td>d</td>
+			<td>e</td>
+		
+	</tr>
+		
+		
+	</table>
+</body>
+</html>

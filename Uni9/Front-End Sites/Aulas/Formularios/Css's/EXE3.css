@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.primeira{
+ 
+ border:2px solid;
+ border-color: green;
+ background:rgba(241, 250, 241,1.00);
+ width:50%;
+}
+.imagem{
+ background-position:left top; 
+ background-size: 100px;
+ background-repeat: no-repeat;
+ 
+}
+
+.segundo{border-color: lightgreen; 
+	resize: horizontal;
+	width: 275px;
+
+}
+.terceiro{border-color: lightgreen;margin-left: 50px; 
+}
+
+
+.dados{border-color: lightgreen;
+	background-image:url("../Imagens/imagem1.png");
+	background-repeat: no-repeat;
+	background-position:center right;
+	width: 300px;
+	height: 125px;
+	background-size: 150px;
+}
+
+
+.loca{border-color: lightgreen;
+	background-image:url("../Imagens/imagem3.png");
+	background-repeat: no-repeat;
+	background-position:center right;
+	width: 300px;
+	height: 125px;
+	background-size: 100px;
+}
+
+.faixa{border-color: lightgreen;
+	background-image:url("../Imagens/imagem4.png");
+	background-repeat: no-repeat;
+	background-position:center right;
+	resize: horizontal;
+	background-size: 100px;
+}
+
+.esportes{border-color: lightgreen;
+	background-image:url("../Imagens/imagem5.png");
+	background-repeat: no-repeat;
+	background-position:center right;
+	resize: horizontal;
+	background-size: 100px;
+}
+.come{border-color: lightgreen;
+	background-image:url("../Imagens/imagem7.png");
+	background-repeat: no-repeat;
+	background-position:center right;
+	resize: horizontal;
+	background-size: 100px;
+}
+
+
+.Gabriel { resize: horizontal; width: 275px;  text-align: left; }
+
+img{
+ background-position:left top; 
+ background-size: 100px;
+ background-repeat: no-repeat;
+ opacity : 0.5 
+	
+}
+
+legend{
+	border:1px solid;
+	border-color: green;
+	color: green;
+}
+
+
+label {color: green}
+input {border-color: green}
+
+
+
